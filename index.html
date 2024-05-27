@@ -10,6 +10,31 @@
     <link rel="stylesheet" href="styles/big-screens.css" media="screen and (min-width: 1200px)">
 </head>
 <body>
-    
+    <main>
+        <section id="tela">
+            <div id="img">
+            </div>
+            <div id="login">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <fieldset>
+                        <p>
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email" required placeholder="exemple@gmail.com" autocomplete="email">
+                        </p>
+                        <p>
+                            <label for="pass">Senha:</label>
+                            <input type="password" name="pass" id="pass" required placeholder="Sua senha" autocomplete="current-password" minlength="8">
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" value="Entrar">
+                        <input type="button" value="Esqueci senha">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
