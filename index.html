@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 1025px) and (max-width: 1200px)">
     <link rel="stylesheet" href="styles/big-screens.css" media="screen and (min-width: 1200px)">
 </head>
+
 <body>
     <main>
         <section id="tela">
@@ -16,25 +18,25 @@
             </div>
             <div id="login">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
+                    ambiente.</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <fieldset>
-                        <p>
-                            <label for="email">Email: </label>
-                            <input type="email" name="email" id="email" required placeholder="exemple@gmail.com" autocomplete="email">
-                        </p>
-                        <p>
-                            <label for="pass">Senha:</label>
-                            <input type="password" name="pass" id="pass" required placeholder="Sua senha" autocomplete="current-password" minlength="8">
-                        </p>
-                    </fieldset>
-                    <fieldset>
-                        <input type="submit" value="Entrar">
-                        <input type="button" value="Esqueci senha">
-                    </fieldset>
+                    <p id="pb1">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" required placeholder="exemple@gmail.com"
+                            autocomplete="email" class="ibox">
+                    </p>
+                    <p id="pb2">
+                        <label for="pass"></label>
+                        <input type="password" name="pass" id="pass" required placeholder="Sua senha"
+                            autocomplete="current-password" minlength="8" class="ibox">
+                    </p>
+                    <p><input type="submit" value="Entrar" id="sing"  class="ibox2"></p>
+                    <p><input type="button" value="Esqueci senha" id="forg"  class="ibox2" ></p>
                 </form>
             </div>
         </section>
     </main>
 </body>
+
 </html>
