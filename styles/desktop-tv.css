@@ -7,7 +7,7 @@ body{
     background-image: linear-gradient( to bottom, #8E6823,#FFCC77);
 }
 main{
-    height: 45%;
+    height: 340px;
     width: 90%;
     border-radius: 20px;
     overflow: hidden;
@@ -25,6 +25,10 @@ div#img {
 div#login {
     display: inline-block;
     width: 50%;
+    
+}
+#pb2 {
+    margin-bottom: 10px;
 }
 #login > h1 {
     padding: 10px;

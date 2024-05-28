@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" media="all">
     <link rel="stylesheet" href="styles/tablet.css" media="screen and (min-width: 769px) and (max-width: 1024px)">
     <link rel="stylesheet" href="styles/desktop-tv.css" media="screen and (min-width: 1025px)">
@@ -21,17 +23,23 @@
                     ambiente.</p>
                 <form action="login.php" method="post" autocomplete="on">
                     <p id="pb1">
-                        <label for="email"></label>
+                        <span class="material-icons">person</span>
                         <input type="email" name="email" id="email" required placeholder="exemple@gmail.com"
                             autocomplete="email" class="ibox">
+                        <label for="email"></label>
                     </p>
                     <p id="pb2">
-                        <label for="pass"></label>
+                        <span class="material-icons">vpn_key</span>  
                         <input type="password" name="pass" id="pass" required placeholder="Sua senha"
                             autocomplete="current-password" minlength="8" class="ibox">
+                        <label for="pass"></label>
                     </p>
-                    <p id="pb3"><input type="submit" value="Entrar" id="sing"  class="ibox2"></p>
-                    <p><input type="button" value="Esqueci senha" id="forg"  class="ibox2" ></p>
+                    <p>
+                        <input type="submit" value="Entrar" id="sing"  class="ibox2">
+                    </p>
+                    <p>
+                        <input type="button" value="Esqueci senha" id="forg"  class="ibox2" >
+                    </p>
                 </form>
             </div>
         </section>

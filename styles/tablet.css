@@ -5,7 +5,7 @@ body{
     background-image: linear-gradient( to bottom, #8E6823,#FFCC77);
 }
 main{
-    height: 40%;
+    height: 310px;
     width: 80%;
     border-radius: 20px;
     overflow: hidden;
