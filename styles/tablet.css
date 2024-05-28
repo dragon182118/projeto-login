@@ -8,19 +8,18 @@ main{
     height: 40%;
     width: 80%;
     border-radius: 20px;
+    overflow: hidden;
 }
 div#img {
     width: 30%;
     height: 100%;
     display: inline-block;
     text-align: left;
-    border-radius: 20px 0px 0px 20px;
     background-size: cover;
 }
 div#login {
     display: inline-block;
     position: absolute;
-    border-radius: 20px;
 }
 #login > h1 {
     padding: 10px;

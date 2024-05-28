@@ -10,13 +10,13 @@ main{
     height: 45%;
     width: 90%;
     border-radius: 20px;
+    overflow: hidden;
 }
 div#img {
     width: 50%;
     height: 100%;
     display: inline-block;
-    text-align: right;
-    border-radius: 0px 20px 20px 0px;
+    text-align: right; 
     background-position: bottom center;
     background-size: cover;
     position: absolute;
@@ -24,7 +24,6 @@ div#img {
 }
 div#login {
     display: inline-block;
-    border-radius: 20px;
     width: 50%;
 }
 #login > h1 {
