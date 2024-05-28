@@ -6,10 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-
 body{
     height: 100vh;
-    background-image: linear-gradient( to bottom, #8E6823,#FFCC77);
+    background: #8E6823
 }
 main{
     background-color: white;
@@ -30,8 +29,7 @@ section#tela{
     border-radius: 10px;
 }
 div#img{
-    background: rgb(0, 0, 90) url(../images/entrada.jpg) no-repeat left center ;
-    background-size: cover;
+    background: rgb(0, 0, 90) url(../images/entrada.jpg) no-repeat center ;
     width: 100%;
     height: 40%;
     border-radius: 10px 10px 0px 0px;
@@ -39,7 +37,6 @@ div#img{
 div#login {
     background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 10px 10px;
-    
 }
 #login > h1 {
     padding: 5px;
@@ -48,7 +45,6 @@ div#login {
 #login > p {
     font-size: 0.9em;
     padding: 10px;
-    padding-bottom: 0px;
 }
 form {
     padding: 10px;
@@ -56,18 +52,16 @@ form {
     
 }
 #pb1, #pb2{
-    background-color: blueviolet;
-    text-align: right;
+    background-color: #FFE077;
+    text-align: left;
     margin-bottom: 4px;
     padding: 2px;
     border-radius: 10px;
 }
-#pb3 {
-    width: 100%;
-}
 input.ibox{
     padding: 10px;
     border-radius: 10px;
+    width: 100%;
 }
 .ibox2 {
     width: 100%;
@@ -75,10 +69,12 @@ input.ibox{
     border-radius: 10px;
     margin: 1px;
     margin-bottom: 3px;
+    border-color: rgba(3, 184, 124, 0.692) ;
 }
 #sing {
     background-color: rgba(0, 128, 85, 0.692);
     color: white;
+    
 }
 #forg {
     color: rgba(0, 128, 85, 0.692);

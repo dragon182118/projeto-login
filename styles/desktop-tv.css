@@ -1,30 +1,38 @@
 @charset "UTF-8";
-
+* {
+    font-size: 1em;
+}
 body{
     height: 100vh;
     background-image: linear-gradient( to bottom, #8E6823,#FFCC77);
 }
 main{
-    height: 40%;
-    width: 80%;
+    height: 45%;
+    width: 90%;
     border-radius: 20px;
 }
 div#img {
-    width: 30%;
+    width: 50%;
     height: 100%;
     display: inline-block;
-    text-align: left;
-    border-radius: 20px 0px 0px 20px;
+    text-align: right;
+    border-radius: 0px 20px 20px 0px;
+    background-position: bottom center;
     background-size: cover;
+    position: absolute;
+    right: 0px;
 }
 div#login {
     display: inline-block;
-    position: absolute;
     border-radius: 20px;
+    width: 50%;
 }
 #login > h1 {
     padding: 10px;
+    font-size: 2em;
+    font-weight: 700;
 }
-.ibox2 {
-    font-size: 1em;
+#login > p {
+    padding: 10px;
+    font-size: 1.01em;
 }
